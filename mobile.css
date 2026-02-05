@@ -1,0 +1,149 @@
+/*@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 260px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 768px) {
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+
+  .about-card {
+    padding: 2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}   
+
+@media (max-width: 576px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 576px) {
+  .contact-form {
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .contact-cards {
+    grid-template-columns: 1fr;
+  }
+} */
+ 
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  section {
+    padding: 40px 15px;
+  }
+  .section-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .navbar {
+    margin-top: -10rem;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -100px;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 15px;
+    margin-left: -50rem;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+  .hero-content h1 {
+    margin-top: -15rem; 
+    font-size: 0.8rem;
+       margin-left: 15rem;
+  }
+  .hero-content h2 {
+    font-size: 1.2rem;
+   margin-left: 15rem;
+  }
+  .hero-content p {
+    font-size: 0.95rem;
+    margin-left: 15rem;
+  }
+  .hero-btn {
+    font-size: 0.95rem;
+    margin-left: 15rem;
+  }
+  .about-card {
+    padding: 20px;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .skill-card {
+    text-align: center;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-img img {
+    width: 100%;
+    height: auto;
+  }
+  .contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-card {
+    padding: 20px;
+    text-align: center;
+  }
+}
